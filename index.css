@@ -1,0 +1,11 @@
+div{
+    /* add multiple images seperated by comma */
+    background-image: url('1.jpg'), url('2.jpg'), url('3.jpg');    
+    
+    /* the positions seperated by comma is assigned to the background images respectively i.e left to the 1.jpg center to 2.jpg and so on  */
+    
+    background-position: left, center, right; 
+    
+    height: 100vh;
+    background-repeat: no-repeat;
+}
